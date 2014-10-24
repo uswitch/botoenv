@@ -26,7 +26,7 @@ gem install botoenv
 As early as possible in your application bootstrap process, load:
 ```
 require 'botoenv'
-Dotenv.load
+Botoenv.load
 ```
 
 ## Any application
