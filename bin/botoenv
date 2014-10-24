@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require 'botoenv'
+
+begin
+  Botoenv.load
+rescue Errno::ENOENT => e
+  abort e.message
+else
+  exec *ARGV unless ARGV.empty?
+end
