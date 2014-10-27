@@ -11,4 +11,7 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.name          = "botoenv"
   gem.require_paths = ["lib"]
+
+  gem.add_dependency('inifile', '~> 3.0.0')
+  gem.add_dependency('pry', '~> 0.10.1')
 end

@@ -1,7 +1,9 @@
 PATH
   remote: .
   specs:
-    botoenv (1.0)
+    botoenv (0.2)
+      inifile (~> 3.0.0)
+      pry (~> 0.10.1)
 
 GEM
   remote: https://rubygems.org/
