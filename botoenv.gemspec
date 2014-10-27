@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
-  gem.version       = 0.2
-  gem.authors       = ["Naadir Jeewa"]
+  gem.version       = 0.3
+  gem.authors       = ["Naadir Jeewa", "Jamie Williamson"]
   gem.email         = ["naadir@randomvariable.co.uk"]
   gem.description   = %q{Loads AWS credentials as environment variables from `.env`.}
   gem.summary       = %q{Loads AWS credentials as environment variables from `.env`.}
